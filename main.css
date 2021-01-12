@@ -1,0 +1,169 @@
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-dark,
+.btn-dark:hover,
+.btn-dark:focus {
+
+  width: 259px;
+  height: 59px;
+  left: 591px;
+  top: 582px;
+
+  background: #fff700;
+  border-radius: 3px;
+  border-bottom: 3px solid #000000;
+  color: #000000;
+  font-family: bebas-neue-pro-expanded, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+/* Custom secondary button */
+.btn-light,
+.btn-light:hover,
+.btn-light:focus {
+
+  width: 259px;
+  height: 59px;
+  left: 591px;
+  top: 582px;
+
+  background: #ffffff;
+  border-radius: 3px;
+  border-bottom: 3px solid #000000;
+  color: #000000;
+  font-family: bebas-neue-pro-expanded, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+
+/*
+ * Base structure
+ */
+
+body {
+  background-image: url('img/vrcpicture.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.title-name {
+  font-family: bebas-neue-pro-semiexpanded, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 144px;
+}
+
+.title-subheading {
+  font-family: bebas-neue-pro-semiexpanded, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  color: #fff700;
+}
+
+.section-subheading {
+  font-family: bebas-neue-pro-expanded, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  text-align: left;
+  align-items: flex-start;
+  padding-left: 15px;
+}
+
+.section-subheadingct {
+  font-family: bebas-neue-pro-expanded, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  text-align: left;
+  align-items: flex-start;
+  padding-left: 40px;
+}
+
+.section-heading {
+  font-family: bebas-neue-pro-expanded, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 64px;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.body-text {
+  font-family: montserrat, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-align: left;
+  padding: 40px;
+  padding-top: 10px;
+  
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.first-section {
+  height: 100%;
+  width: 100%;
+
+  background: #171717;
+}
+
+.second-section {
+  height: 100%;
+  width: 100%;
+}
+
+.third-section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
