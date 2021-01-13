@@ -89,7 +89,18 @@
  */
 
 body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-background {
   background-image: url('img/towertakeovertwo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.join-background {
+  background-image: url('img/ctfacilitytwo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -103,20 +114,25 @@ body {
   background-color: #171717;
 }
 
+.black-text {
+  color: #000000;
+}
+
 .title-name {
   font-family: bebas-neue-pro-semiexpanded, sans-serif;
   font-weight: 700;
   font-style: italic;
-  font-size: 144px;
+  font-size: 110px;
 }
 
 .title-subheading {
   font-family: bebas-neue-pro-semiexpanded, sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 36px;
+  font-size: 24px;
   letter-spacing: 0.1em;
   color: #fff700;
+  padding: 0px;
 }
 
 .section-subheading {
@@ -254,4 +270,25 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
+}
+
+.card-title {
+  font-family: bebas-neue-pro-semiexpanded, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.card-text {
+  font-family: montserrat, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  padding-top: 10px;
+  
+}
+
+.card {
+  border-radius: 5px;
 }
