@@ -3,6 +3,8 @@
  */
 
 
+
+
 /* Custom default button */
 .btn-dark,
 .btn-dark:hover,
@@ -90,6 +92,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
 }
 
 .home-background {
