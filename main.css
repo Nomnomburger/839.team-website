@@ -224,6 +224,17 @@ body {
   padding-left: 40px;
 }
 
+.event-card {
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+
+  background: #F8F8F8;
+  ;
+}
+
 .game-page-header {
   font-family: bebas-neue-pro-semiexpanded, sans-serif;
   font-weight: 700;
