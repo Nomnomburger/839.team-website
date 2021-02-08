@@ -224,6 +224,14 @@ body {
   padding-left: 40px;
 }
 
+.white-section {
+  height: 100%;
+  width: 100%;
+
+  background: #fff;
+  ;
+}
+
 .event-card {
   height: 100%;
   width: 100%;
