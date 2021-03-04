@@ -323,8 +323,18 @@ body {
     float: left;
   }
   .navbar-nav {
-    float:left;
-    text-align: left;
+    float: right;
+    text-align: right;
+  }
+}
+
+.navbar-selected-dot {
+  color: #fff700;
+}
+
+@media (min-width: 990px) {
+  .navbar-selected-dot {
+    display: none;
   }
 }
 
