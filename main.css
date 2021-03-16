@@ -123,6 +123,15 @@ body {
     background-attachment: fixed;
 }
 
+.about-background {
+  background-image: url('img/vrcpicture.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-attachment: fixed;
+}
+
+
 .body-standard {
   background-color: black;
 }
