@@ -402,3 +402,85 @@ body {
 .card {
   border-radius: 5px;
 }
+
+
+/*
+ABOUT SECTION
+*/
+
+.about-award-amount {
+  font-family: bebas-neue-pro-semiexpanded, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 50px;
+  text-align: left;
+  align-items: flex-start;
+}
+
+.about-award-text {
+  font-family: bebas-neue-pro-semiexpanded, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 15px;
+  text-align: left;
+  align-items: flex-start;
+  padding-left: 20px;
+  width: 50px;
+}
+
+.about-award-text-long {
+  width: 110px;
+}
+
+@media (max-width: 1200px) {
+  .about-award-amount {
+    font-family: bebas-neue-pro-semiexpanded, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 65px;
+    text-align: left;
+    align-items: flex-start;
+  }
+  
+  .about-award-text {
+    font-family: bebas-neue-pro-semiexpanded, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+    text-align: left;
+    align-items: flex-start;
+    padding-left: 20px;
+    width: 50px;
+  }
+
+  .about-award-text-long {
+    width: 150px;
+  }
+}
+
+
+@media (min-width: 2000px) {
+  .about-award-amount {
+    font-family: bebas-neue-pro-semiexpanded, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 65px;
+    text-align: left;
+    align-items: flex-start;
+  }
+  
+  .about-award-text {
+    font-family: bebas-neue-pro-semiexpanded, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+    text-align: left;
+    align-items: flex-start;
+    padding-left: 20px;
+    width: 50px;
+  }
+
+  .about-award-text-long {
+    width: 130px;
+  }
+}
