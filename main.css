@@ -148,7 +148,7 @@ body {
   font-family: bebas-neue-pro-semiexpanded, sans-serif;
   font-weight: 700;
   font-style: italic;
-  font-size: 110px;
+  font-size: 9vw;
 }
 
 .title-subheading {
@@ -483,4 +483,17 @@ ABOUT SECTION
   .about-award-text-long {
     width: 130px;
   }
+}
+
+
+
+
+.competition-heading {
+  font-family: bebas-neue-pro-expanded, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 40px;
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 20px;
 }
