@@ -148,7 +148,7 @@ body {
   font-family: bebas-neue-pro-semiexpanded, sans-serif;
   font-weight: 700;
   font-style: italic;
-  font-size: 9vw;
+  font-size: 6vw;
 }
 
 .title-subheading {
@@ -348,6 +348,22 @@ body {
   .navbar-nav {
     float: right;
     text-align: right;
+  }
+
+  .title-name {
+    font-family: bebas-neue-pro-semiexpanded, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 18vw;
+  }
+
+  .section-heading {
+    font-family: bebas-neue-pro-expanded, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 54px;
+    text-align: left;
+    padding-left: 40px;
   }
 }
 
