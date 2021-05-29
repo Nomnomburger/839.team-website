@@ -1,16 +1,22 @@
 import LocomotiveScroll from 'locomotive-scroll';
-import imagesLoaded from 'imagesloaded';
 
-const scroll = new LocomotiveScroll({
-  el: document.querySelector('[data-scroll-container]'),
+const imagesLoaded = require("imagesloaded");
+
+
+let scrollContainer = document.querySelector("[data-scroll-container]");
+
+var scroll;
+
+scroll = new LocomotiveScroll({
+  el: scrollContainer,
   smooth: true,
+  getSpeed: true,
+  getDirection: true,
   tablet: {
     smooth: true
   }
 });
 
-imagesLoaded(".data-scroll-container", { background: true }, function () {
+imagesLoaded(scrollContainer, { background: true }, function () {
   scroll.update();
-  console.log('images loaded');
-  
 });
