@@ -1,0 +1,33 @@
+{
+  "name": "839.team-website",
+  "version": "1.0.0",
+  "description": "Team 839 Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html ./articles/*.html",
+    "prod": "parcel build index.html",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nomnomburger/839.team-website.git"
+  },
+  "keywords": [
+    "Team",
+    "839"
+  ],
+  "author": "Winston Zhao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nomnomburger/839.team-website/issues"
+  },
+  "homepage": "https://github.com/Nomnomburger/839.team-website#readme",
+  "dependencies": {
+    "articles": "^0.2.2",
+    "locomotive-scroll": "^4.1.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

@@ -9,6 +9,7 @@
   <meta name="generator" content="Hugo 0.79.0">
   <title>Join - VRC Team 839</title>
   <link rel="icon" href="favicon-ctrc.ico">
+  <link rel="stylesheet" href="base.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">​
 
@@ -20,8 +21,6 @@
 
 
 
-  <!-- Bootstrap core CSS -->
-  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <style>
     .bd-placeholder-img {
@@ -44,12 +43,11 @@
   <link href="main.css" rel="stylesheet">
 </head>
 
-<body class="h-100 text-center text-white darkbkg join-background">
+<body class="text-center darkbkg text-white join-background">
 
-
-
-  <!--TITLE SPLASH-->
-  <div class="cover-container d-flex w-100 h-100 p-1 mx-auto flex-column" style="width: 100%; padding: 0px;">
+  <div data-scroll-container>
+    <!--TITLE SPLASH-->
+  <div data-scroll-section style="width: 100%; padding: 0px; height: 100vh;" class="cover-container d-flex w-100 p-1 mx-auto flex-column">
     <header class="mb-auto">
       <div>
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -119,7 +117,7 @@
 
 
   <!--ABOUT SECTION-->
-  <div class="row" style="width: 100%; padding: 0px; margin: 0px; background: #F8F8F8;">
+  <div data-scroll-section class="row" style="width: 100%; padding: 0px; margin: 0px; background: #F8F8F8;">
     <div class="col-xl-8" style="padding: 0px;">
       <div class="second-section d-flex align-items-center" style="padding-top: 30px;">
         <div>
@@ -154,7 +152,7 @@
 
 
   <!--VALUES SECTION-->
-  <div class="row" style="width: 100%; padding: 0px; margin: 0px; background: #ffffff;">
+  <div data-scroll-section class="row" style="width: 100%; padding: 0px; margin: 0px; background: #ffffff;">
     <div class="col-12 col-xl-5" style="padding: 0px;">
       <div>
         <img src="img/839 website illlustrations-02.png" alt="change up robot" class="responsive"
@@ -187,7 +185,7 @@
 
 
   <!--LOCATION SECTION-->
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column" style="width: 100%; padding: 0px;">
+  <div data-scroll-section style="width: 100%; padding: 0px; height: 100vh;" class="cover-container d-flex w-100 p-1 mx-auto flex-column">
     <header class="mb-auto">
       <div>
         <h3><i class="bi bi-geo-alt-fill"></i></h3>
@@ -219,7 +217,7 @@
 
 
   <!--ROLES SECTION-->
-  <div class="row" style="width: 100%; padding: 0px; margin: 0px; background: #fff; height: min-content;">
+  <div data-scroll-section class="row" style="width: 100%; padding: 0px; margin: 0px; background: #fff; height: min-content;">
     <div style="padding: 0px; width: 100%;">
       <div class="second-section d-flex align-items-center" style="padding-top: 30px;">
         <div>
@@ -290,7 +288,9 @@
 
     </div>
   </div>
-  <div class="row" style="width: 100%; padding: 0px; margin: 0px; background: #fff; height: min-content;">
+
+
+  <div data-scroll-section class="row" style="width: 100%; padding: 0px; margin: 0px; background: #fff; height: min-content;">
 
 
     <div class="col-12 col-md-6 col-lg-4 black-text" style="padding: 40px;">
@@ -353,7 +353,7 @@
 
 
   <!--JOIN SECTION-->
-  <div class="row" style="width: 100%; padding: 0px; margin: 0px; background: #171717;">
+  <div data-scroll-section class="row" style="width: 100%; padding: 0px; margin: 0px; background: #171717;">
     <div class="col-xl-9" style="padding-top: 60px; padding-bottom: 60px;">
       <div class="second-section d-flex align-items-center">
         <div>
@@ -376,7 +376,7 @@
 
 
   <!--FOOTER-->
-  <footer>
+  <footer data-scroll-section>
 
     <div class="row" style="width: 100%; padding: 0px; margin: 0px; min-height: 600px;">
       <div class="col-xl-5" style="padding: 0px; background: #e7e013;">
@@ -451,7 +451,7 @@
     </div>
 
     
-    <div class="row" style="width: 100%; padding: 0px; margin: 0px; background: #fff700; min-height: 80px;">
+    <div class="row" style="width: 100%; padding: 0px; margin: 0px; background: #fff700; min-height: 80px; padding-bottom: 30px;">
       <div class="col-12 col-lg-5 order-lg-1 order-2" style="padding: 0px;">
         <div class="footer-section d-flex align-items-center justify-content-lg-start justify-content-center px-lg-4 py-3">
 
@@ -491,6 +491,9 @@
       </div>
     </div>
   </footer>
+  </div>
+
+  <script src="index.js"></script>
 
 
 
