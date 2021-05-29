@@ -9,5 +9,5 @@ const scroll = new LocomotiveScroll({
 });
 
 imagesLoaded("data-scroll-container", { background: true }, function () {
-  LocomotiveScroll.update();
+  scroll.update();
 });
