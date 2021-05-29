@@ -10,3 +10,7 @@ const scroll = new LocomotiveScroll({
     smooth: true
   }
 });
+
+imagesLoaded(".locomotive-scroll", { background: true }, function () {
+  locoScroll.update();
+});
