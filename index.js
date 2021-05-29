@@ -1,4 +1,5 @@
 import LocomotiveScroll from 'locomotive-scroll';
+import imagesLoaded from 'imagesloaded';
 
 const scroll = new LocomotiveScroll({
   el: document.querySelector('[data-scroll-container]'),
@@ -8,6 +9,8 @@ const scroll = new LocomotiveScroll({
   }
 });
 
-imagesLoaded("data-scroll-container", { background: true }, function () {
+imagesLoaded(".data-scroll-container", { background: true }, function () {
   scroll.update();
+  console.log('images loaded');
+  
 });
