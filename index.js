@@ -14,6 +14,9 @@ scroll = new LocomotiveScroll({
   getDirection: true,
   tablet: {
     smooth: true
+  },
+  smartphone: {
+    smooth: true
   }
 });
 

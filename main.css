@@ -2,7 +2,9 @@
  * Globals
  */
 
-
+html {
+  overscroll-behavior-y: none;
+}
 
 
 /* Custom default button */
