@@ -112,7 +112,7 @@ body {
 
 .home-background {
   background-image: url('img/homescreen4.jpg');
-    
+  background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
   background-attachment: scroll;
@@ -120,7 +120,7 @@ body {
 
 .join-background {
   background-image: url('img/ctfacilitytwo.jpg');
-    
+  background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
   background-attachment: scroll;
@@ -128,7 +128,7 @@ body {
 
 .about-background {
   background-image: url('img/vrcpicture.jpg');
-    
+  background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
   background-attachment: scroll;
