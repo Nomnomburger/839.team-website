@@ -9,15 +9,16 @@ var scroll;
 
 scroll = new LocomotiveScroll({
   el: scrollContainer,
+  firefoxMultiplier: 100,
   smooth: true,
   getSpeed: true,
-  getDirection: true,
+  
+  
+  
   tablet: {
-    smooth: true
+    smooth: true,
+    firefoxMultiplier: 100,
   },
-  smartphone: {
-    smooth: true
-  }
 });
 
 imagesLoaded(scrollContainer, { background: true }, function () {
