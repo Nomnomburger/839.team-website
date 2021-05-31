@@ -2,7 +2,9 @@
  * Globals
  */
 
-
+html {
+  overscroll-behavior-y: none;
+}
 
 
 /* Custom default button */
@@ -110,26 +112,26 @@ body {
 
 .home-background {
   background-image: url('img/homescreen4.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-attachment: fixed;
+    
+  background-size: cover;
+  background-position-x: center;
+  background-attachment: scroll;
 }
 
 .join-background {
   background-image: url('img/ctfacilitytwo.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-attachment: fixed;
+    
+  background-size: cover;
+  background-position-x: center;
+  background-attachment: scroll;
 }
 
 .about-background {
   background-image: url('img/vrcpicture.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-attachment: fixed;
+    
+  background-size: cover;
+  background-position-x: center;
+  background-attachment: scroll;
 }
 
 
