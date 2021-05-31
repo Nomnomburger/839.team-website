@@ -10,6 +10,7 @@ var scroll;
 scroll = new LocomotiveScroll({
   el: scrollContainer,
   firefoxMultiplier: 100,
+  multiplier: 1.5,
   smooth: true,
   getSpeed: true,
   
