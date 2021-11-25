@@ -1,0 +1,518 @@
+/*
+ * Globals
+ */
+
+html {
+  overscroll-behavior-y: none;
+}
+
+
+/* Custom default button */
+.btn-dark,
+.btn-dark:hover,
+.btn-dark:focus {
+
+  width: 259px;
+  height: 59px;
+  left: 591px;
+  top: 582px;
+
+  background: #fff700;
+  border-radius: 3px;
+  border-bottom: 3px solid #000000;
+  color: #000000;
+  font-family: bebas-neue-pro-expanded, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+/* Custom secondary button */
+.btn-light,
+.btn-light:hover,
+.btn-light:focus {
+
+  width: 259px;
+  height: 59px;
+  left: 591px;
+  top: 582px;
+
+  background: #ffffff;
+  border-radius: 3px;
+  border-bottom: 3px solid #000000;
+  color: #000000;
+  font-family: bebas-neue-pro-expanded, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+/* Custom text button */
+.btn-link,
+.btn-link:hover,
+.btn-link:focus {
+
+  width: 159px;
+  height: 59px;
+  left: 591px;
+  top: 582px;
+
+  border-radius: 3px;
+  color: #fff;
+  font-family: bebas-neue-pro-expanded, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+/* Custom text button */
+.btn-link-dark,
+.btn-link-dark:hover,
+.btn-link-dark:focus {
+
+  width: 159px;
+  height: 59px;
+  left: 591px;
+  top: 582px;
+
+  border-radius: 3px;
+  color: #000000;
+  font-family: bebas-neue-pro-expanded, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.dark {
+  color: #000000;
+}
+
+
+.navbar {
+  position: relative;
+}
+
+.brand {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px !important;  /* 50% of your logo width */
+  display: block;
+}
+
+
+/*
+ * Base structure
+ */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  overflow: overlay
+}
+
+.home-background {
+  background: #171717;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-attachment: scroll;
+}
+
+.join-background {
+  background-image: url('vrc/img/ctfacilitytwo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-attachment: scroll;
+}
+
+.about-background {
+  background-image: url('vrc/img/vrcpicture.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-attachment: scroll;
+}
+
+
+.body-standard {
+  background-color: black;
+}
+
+.darkbkg {
+  background-color: #171717;
+}
+
+.black-text {
+  color: #000000;
+}
+
+.title-name {
+  font-family: bebas-neue-pro-semiexpanded, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 6vw;
+}
+
+.title-subheading {
+  font-family: bebas-neue-pro-semiexpanded, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  color: #fff700;
+  padding: 0px;
+}
+
+.section-subheading {
+  font-family: bebas-neue-pro-expanded, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  text-align: left;
+  align-items: flex-start;
+  padding-left: 15px;
+}
+
+.section-subheadingct {
+  font-family: bebas-neue-pro-expanded, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  text-align: left;
+  align-items: flex-start;
+  padding-left: 40px;
+}
+
+.section-heading {
+  font-family: bebas-neue-pro-expanded, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 64px;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.body-text {
+  font-family: montserrat, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  text-align: left;
+  padding: 40px;
+  padding-top: 10px;
+  
+}
+
+.cover-container {
+  max-width: 100%;
+}
+
+.first-section {
+  height: 100%;
+  width: 100%;
+
+  background: #171717;
+}
+
+.second-section {
+  height: 100%;
+  width: 100%;
+}
+
+.third-section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.third-section-txt {
+  font-family: bebas-neue-pro-semiexpanded, sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 5.1vw;
+}
+
+.fourth-section {
+  height: 100%;
+  width: 100%;
+
+  background: #F8F8F8;
+  ;
+}
+
+.fourth-section-score {
+  font-family: bebas-neue-pro-expanded, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.fifth-section {
+  height: 100%;
+  width: 100%;
+}
+
+.white-section {
+  height: 100%;
+  width: 100%;
+
+  background: #fff;
+  ;
+}
+
+.event-card {
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+
+  background: #F8F8F8;
+  ;
+}
+
+.game-page-header {
+  font-family: bebas-neue-pro-semiexpanded, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 10vw;
+  text-align: left;
+  align-items: flex-start;
+  padding-left: 40px;
+  padding-right: 10px;
+}
+
+
+
+/* Footer */
+
+.footer-section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.footer-icon {
+  color: black;
+  font-size: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/*
+ * Header
+ */
+
+/*
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+*/
+
+.nav-item {
+  font-family: bebas-neue-pro-semiexpanded, sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+/*
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+*/
+
+
+@media (max-width: 990px) {
+  .navbar-brand {
+    float: left;
+  }
+  .navbar-nav {
+    float: right;
+    text-align: right;
+  }
+
+  .title-name {
+    font-family: bebas-neue-pro-semiexpanded, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 18vw;
+  }
+
+  .section-heading {
+    font-family: bebas-neue-pro-expanded, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 54px;
+    text-align: left;
+    padding-left: 40px;
+  }
+}
+
+.navbar-selected-dot {
+  color: #fff700;
+}
+
+@media (min-width: 990px) {
+  .navbar-selected-dot {
+    display: none;
+  }
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.centered-bottom {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.card-title {
+  font-family: bebas-neue-pro-semiexpanded, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.card-text {
+  font-family: montserrat, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  padding-top: 10px;
+  
+}
+
+.card {
+  border-radius: 5px;
+}
+
+
+/*
+ABOUT SECTION
+*/
+
+.about-award-amount {
+  font-family: bebas-neue-pro-semiexpanded, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 50px;
+  text-align: left;
+  align-items: flex-start;
+}
+
+.about-award-text {
+  font-family: bebas-neue-pro-semiexpanded, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 15px;
+  text-align: left;
+  align-items: flex-start;
+  padding-left: 20px;
+  width: 50px;
+}
+
+.about-award-text-long {
+  width: 110px;
+}
+
+@media (max-width: 1200px) {
+  .about-award-amount {
+    font-family: bebas-neue-pro-semiexpanded, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 65px;
+    text-align: left;
+    align-items: flex-start;
+  }
+  
+  .about-award-text {
+    font-family: bebas-neue-pro-semiexpanded, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+    text-align: left;
+    align-items: flex-start;
+    padding-left: 20px;
+    width: 50px;
+  }
+
+  .about-award-text-long {
+    width: 150px;
+  }
+}
+
+
+@media (min-width: 2000px) {
+  .about-award-amount {
+    font-family: bebas-neue-pro-semiexpanded, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 65px;
+    text-align: left;
+    align-items: flex-start;
+  }
+  
+  .about-award-text {
+    font-family: bebas-neue-pro-semiexpanded, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+    text-align: left;
+    align-items: flex-start;
+    padding-left: 20px;
+    width: 50px;
+  }
+
+  .about-award-text-long {
+    width: 130px;
+  }
+}
+
+
+
+
+.competition-heading {
+  font-family: bebas-neue-pro-expanded, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 40px;
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 20px;
+}
